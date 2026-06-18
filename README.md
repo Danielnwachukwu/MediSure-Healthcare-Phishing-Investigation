@@ -33,6 +33,16 @@ The investigation focused on a suspicious email impersonating Microsoft and warn
 
 ## Investigation Workflow
 
+1. Email Receipt & Validation
+2. Header Analysis
+3. SPF/DKIM/DMARC Verification
+4. Domain & IP Reputation Analysis
+5. SpamAssassin Classification
+6. Splunk Threat Hunting
+7. IOC Correlation
+8. Incident Response & Containment
+9. Lessons Learned
+
 ### 1. Email Analysis
 
 The suspicious email was analyzed using PhishTool and email header inspection.
