@@ -1,0 +1,12 @@
+index=email_logs log_type=auth location="Russia"
+
+index=email_logs
+(url_domain="sign.in" OR url_domain="access-accsecurity.com")
+
+index=email_logs log_type=firewall
+(dest_ip="89.144.44.41" OR dest_ip="103.225.77.255")
+
+index=email_logs
+(country="Russia" OR location="Russia")
+| stats count by user
+| sort -count
