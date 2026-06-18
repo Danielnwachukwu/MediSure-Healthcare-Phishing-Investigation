@@ -84,6 +84,16 @@ Splunk searches identified:
 
 ## Key Findings
 
+- Confirmed phishing email impersonating Microsoft Account Security Team
+- SPF validation failed
+- DKIM signature absent
+- DMARC policy missing
+- Suspicious Reply-To address identified
+- Two users accessed phishing infrastructure
+- Internal hosts communicated with attacker IP 89.144.44.41
+- Russian authentication activity detected
+- Multiple Indicators of Compromise (IOCs) identified and blocked
+
 ### Affected Users
 
 * [alice@medisurehealthnetwork.com](mailto:alice@medisurehealthnetwork.com)
